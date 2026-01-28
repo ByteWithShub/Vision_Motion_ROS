@@ -1,0 +1,6 @@
+setup.py
+aisd_msgs/__init__.py
+aisd_msgs.egg-info/PKG-INFO
+aisd_msgs.egg-info/SOURCES.txt
+aisd_msgs.egg-info/dependency_links.txt
+aisd_msgs.egg-info/top_level.txt

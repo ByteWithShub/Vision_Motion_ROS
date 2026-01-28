@@ -1,0 +1,273 @@
+[0.428s] Invoking command in '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aisd/ros2_ws/src/aisd-vision-shubhangix/aisd_msgs -DCMAKE_INSTALL_PREFIX=/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs
+[2.498s] -- The C compiler identification is GNU 11.4.0
+[3.243s] -- The CXX compiler identification is GNU 11.4.0
+[3.316s] -- Detecting C compiler ABI info
+[3.953s] -- Detecting C compiler ABI info - done
+[3.971s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.973s] -- Detecting C compile features
+[3.979s] -- Detecting C compile features - done
+[4.005s] -- Detecting CXX compiler ABI info
+[4.826s] -- Detecting CXX compiler ABI info - done
+[4.855s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.856s] -- Detecting CXX compile features
+[4.856s] -- Detecting CXX compile features - done
+[4.921s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.568s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.993s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.027s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.079s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.204s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.758s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.783s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.974s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.975s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.975s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.975s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.075s] -- Found PythonExtra: .so  
+[11.298s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.577s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.606s] -- Added test 'lint_cmake' to check CMake code style
+[11.621s] -- Added test 'xmllint' to check XML markup files
+[11.657s] -- Configuring done
+[12.082s] -- Generating done
+[12.105s] -- Build files have been written to: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs
+[12.144s] Invoked command in '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aisd/ros2_ws/src/aisd-vision-shubhangix/aisd_msgs -DCMAKE_INSTALL_PREFIX=/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs
+[12.167s] Invoking command in '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs -- -j2 -l2
+[12.572s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.661s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.659s] [  5%] Built target aisd_msgs__cpp
+[13.738s] [  7%] [32mBuilding C object CMakeFiles/aisd_msgs__rosidl_generator_c.dir/rosidl_generator_c/aisd_msgs/msg/detail/hand__functions.c.o[0m
+[13.794s] [  7%] Built target ament_cmake_python_copy_aisd_msgs
+[13.849s] [ 10%] [32mBuilding C object CMakeFiles/aisd_msgs__rosidl_generator_c.dir/rosidl_generator_c/aisd_msgs/srv/detail/speak__functions.c.o[0m
+[14.153s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.199s] [ 15%] [32m[1mLinking C shared library libaisd_msgs__rosidl_generator_c.so[0m
+[14.395s] [ 15%] Built target aisd_msgs__rosidl_generator_c
+[14.450s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.788s] [ 20%] [32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aisd_msgs/msg/hand__type_support.cpp.o[0m
+[15.382s] [ 23%] [32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aisd_msgs/msg/detail/dds_fastrtps/hand__type_support.cpp.o[0m
+[16.568s] [ 25%] [32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aisd_msgs/srv/speak__type_support.cpp.o[0m
+[17.399s] [ 28%] [32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aisd_msgs/srv/detail/dds_fastrtps/speak__type_support.cpp.o[0m
+[17.739s] [ 30%] [32m[1mLinking CXX shared library libaisd_msgs__rosidl_typesupport_cpp.so[0m
+[17.952s] [ 30%] Built target aisd_msgs__rosidl_typesupport_cpp
+[18.006s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.796s] [ 35%] [32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aisd_msgs/msg/detail/hand__type_support.cpp.o[0m
+[18.802s] [ 38%] [32m[1mLinking CXX shared library libaisd_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.176s] [ 38%] Built target aisd_msgs__rosidl_typesupport_fastrtps_cpp
+[20.185s] running egg_info
+[20.187s] creating aisd_msgs.egg-info
+[20.189s] [ 41%] [32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aisd_msgs/srv/detail/speak__type_support.cpp.o[0m
+[20.190s] writing aisd_msgs.egg-info/PKG-INFO
+[20.192s] writing dependency_links to aisd_msgs.egg-info/dependency_links.txt
+[20.193s] writing top-level names to aisd_msgs.egg-info/top_level.txt
+[20.194s] writing manifest file 'aisd_msgs.egg-info/SOURCES.txt'
+[20.201s] reading manifest file 'aisd_msgs.egg-info/SOURCES.txt'
+[20.203s] writing manifest file 'aisd_msgs.egg-info/SOURCES.txt'
+[20.285s] [ 41%] Built target ament_cmake_python_build_aisd_msgs_egg
+[20.486s] [ 43%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[21.356s] [ 46%] [32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aisd_msgs/msg/detail/hand__type_support_c.cpp.o[0m
+[21.632s] [ 48%] [32m[1mLinking CXX shared library libaisd_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[21.973s] [ 48%] Built target aisd_msgs__rosidl_typesupport_introspection_cpp
+[22.026s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[22.501s] [ 53%] [32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aisd_msgs/srv/detail/speak__type_support_c.cpp.o[0m
+[22.803s] [ 56%] [32mBuilding C object CMakeFiles/aisd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aisd_msgs/msg/detail/hand__type_support.c.o[0m
+[22.967s] [ 58%] [32mBuilding C object CMakeFiles/aisd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aisd_msgs/srv/detail/speak__type_support.c.o[0m
+[23.153s] [ 61%] [32m[1mLinking C shared library libaisd_msgs__rosidl_typesupport_introspection_c.so[0m
+[23.324s] [ 61%] Built target aisd_msgs__rosidl_typesupport_introspection_c
+[23.373s] [ 64%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.631s] [ 66%] [32m[1mLinking CXX shared library libaisd_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[24.026s] [ 66%] Built target aisd_msgs__rosidl_typesupport_fastrtps_c
+[24.140s] [ 71%] [32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aisd_msgs/srv/speak__type_support.cpp.o[0m
+[24.140s] [ 71%] [32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aisd_msgs/msg/hand__type_support.cpp.o[0m
+[24.316s] [ 74%] [32m[1mLinking CXX shared library libaisd_msgs__rosidl_typesupport_c.so[0m
+[24.624s] [ 74%] Built target aisd_msgs__rosidl_typesupport_c
+[24.823s] [ 74%] Built target aisd_msgs
+[25.041s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[26.171s] [ 76%] Built target aisd_msgs__py
+[26.281s] [ 79%] [32mBuilding C object CMakeFiles/aisd_msgs__rosidl_generator_py.dir/rosidl_generator_py/aisd_msgs/msg/_hand_s.c.o[0m
+[26.290s] [ 82%] [32mBuilding C object CMakeFiles/aisd_msgs__rosidl_generator_py.dir/rosidl_generator_py/aisd_msgs/srv/_speak_s.c.o[0m
+[26.902s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/aisd_msgs/libaisd_msgs__rosidl_generator_py.so[0m
+[27.140s] [ 84%] Built target aisd_msgs__rosidl_generator_py
+[27.306s] [ 87%] [32mBuilding C object CMakeFiles/aisd_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aisd_msgs/_aisd_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[27.324s] [ 89%] [32mBuilding C object CMakeFiles/aisd_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aisd_msgs/_aisd_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[27.796s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/aisd_msgs/aisd_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[27.829s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/aisd_msgs/aisd_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[27.985s] [ 94%] Built target aisd_msgs__rosidl_typesupport_introspection_c__pyext
+[28.021s] [ 94%] Built target aisd_msgs__rosidl_typesupport_fastrtps_c__pyext
+[28.125s] [ 97%] [32mBuilding C object CMakeFiles/aisd_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aisd_msgs/_aisd_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[28.506s] [100%] [32m[1mLinking C shared library rosidl_generator_py/aisd_msgs/aisd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[28.755s] [100%] Built target aisd_msgs__rosidl_typesupport_c__pyext
+[28.827s] Invoked command in '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs -- -j2 -l2
+[29.622s] Invoking command in '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs
+[29.666s] -- Install configuration: ""
+[29.670s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/ament_index/resource_index/rosidl_interfaces/aisd_msgs
+[29.672s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs
+[29.673s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv
+[29.674s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail
+[29.675s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__functions.c
+[29.676s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__functions.h
+[29.677s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__type_support.h
+[29.681s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__struct.h
+[29.681s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/speak.h
+[29.682s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg
+[29.682s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail
+[29.684s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__functions.c
+[29.685s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__type_support.h
+[29.687s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__struct.h
+[29.688s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__functions.h
+[29.689s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/hand.h
+[29.691s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/rosidl_generator_c__visibility_control.h
+[29.692s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/library_path.sh
+[29.695s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/library_path.dsv
+[29.696s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_generator_c.so
+[29.701s] -- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_generator_c.so" to ""
+[29.701s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs
+[29.702s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv
+[29.703s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail
+[29.704s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__rosidl_typesupport_fastrtps_c.h
+[29.705s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg
+[29.706s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail
+[29.707s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__rosidl_typesupport_fastrtps_c.h
+[29.708s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[29.709s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_fastrtps_c.so
+[29.714s] -- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[29.715s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs
+[29.715s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv
+[29.716s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail
+[29.716s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__rosidl_typesupport_introspection_c.h
+[29.717s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__type_support.c
+[29.719s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg
+[29.720s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail
+[29.720s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__type_support.c
+[29.721s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__rosidl_typesupport_introspection_c.h
+[29.722s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[29.723s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_introspection_c.so
+[29.728s] -- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_introspection_c.so" to ""
+[29.729s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_c.so
+[29.734s] -- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_c.so" to ""
+[29.734s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs
+[29.735s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv
+[29.736s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail
+[29.736s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__struct.hpp
+[29.737s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__builder.hpp
+[29.738s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__traits.hpp
+[29.739s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/speak.hpp
+[29.740s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg
+[29.741s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail
+[29.741s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__builder.hpp
+[29.743s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__traits.hpp
+[29.744s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__struct.hpp
+[29.745s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/hand.hpp
+[29.747s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs
+[29.747s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv
+[29.748s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail
+[29.748s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/dds_fastrtps
+[29.749s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__rosidl_typesupport_fastrtps_cpp.hpp
+[29.751s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg
+[29.751s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail
+[29.751s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/dds_fastrtps
+[29.752s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__rosidl_typesupport_fastrtps_cpp.hpp
+[29.753s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[29.754s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_fastrtps_cpp.so
+[29.760s] -- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[29.761s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs
+[29.761s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv
+[29.762s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail
+[29.763s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__type_support.cpp
+[29.764s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__rosidl_typesupport_introspection_cpp.hpp
+[29.765s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg
+[29.765s] -- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail
+[29.766s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__type_support.cpp
+[29.767s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__rosidl_typesupport_introspection_cpp.hpp
+[29.767s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_introspection_cpp.so
+[29.772s] -- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[29.773s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_cpp.so
+[29.777s] -- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_cpp.so" to ""
+[29.777s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/pythonpath.sh
+[29.778s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/pythonpath.dsv
+[29.780s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs-0.0.0-py3.10.egg-info
+[29.781s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[29.783s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[29.783s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[29.784s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[29.785s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs
+[29.786s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/_aisd_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[29.787s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/_aisd_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[29.788s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/__init__.py
+[29.789s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[29.793s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[29.793s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv
+[29.794s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv/_speak_s.c
+[29.795s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv/_speak.py
+[29.797s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv/__init__.py
+[29.799s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[29.801s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/libaisd_msgs__rosidl_generator_py.so
+[29.802s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/_aisd_msgs_s.ep.rosidl_typesupport_c.c
+[29.803s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg
+[29.804s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg/__init__.py
+[29.805s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg/_hand.py
+[29.807s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg/_hand_s.c
+[30.005s] Listing '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs'...
+[30.005s] Compiling '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/__init__.py'...
+[30.006s] Listing '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg'...
+[30.006s] Compiling '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg/__init__.py'...
+[30.007s] Compiling '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg/_hand.py'...
+[30.007s] Listing '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv'...
+[30.008s] Compiling '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv/__init__.py'...
+[30.008s] Compiling '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv/_speak.py'...
+[30.028s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[30.038s] -- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[30.044s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[30.058s] -- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[30.066s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[30.077s] -- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[30.079s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_generator_py.so
+[30.094s] -- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_generator_py.so" to ""
+[30.098s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/msg/Hand.idl
+[30.101s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/srv/Speak.idl
+[30.104s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/msg/Hand.msg
+[30.106s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/srv/Speak.srv
+[30.109s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/srv/Speak_Request.msg
+[30.114s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/srv/Speak_Response.msg
+[30.117s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/ament_index/resource_index/package_run_dependencies/aisd_msgs
+[30.121s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/ament_index/resource_index/parent_prefix_path/aisd_msgs
+[30.129s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/ament_prefix_path.sh
+[30.131s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/ament_prefix_path.dsv
+[30.133s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/path.sh
+[30.136s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/path.dsv
+[30.139s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/local_setup.bash
+[30.145s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/local_setup.sh
+[30.148s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/local_setup.zsh
+[30.151s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/local_setup.dsv
+[30.153s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/package.dsv
+[30.156s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/ament_index/resource_index/packages/aisd_msgs
+[30.163s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_generator_cExport.cmake
+[30.165s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_generator_cExport-noconfig.cmake
+[30.168s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[30.171s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[30.177s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_introspection_cExport.cmake
+[30.180s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[30.185s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_cExport.cmake
+[30.192s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[30.193s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_generator_cppExport.cmake
+[30.195s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[30.197s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[30.198s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[30.200s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[30.202s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_cppExport.cmake
+[30.204s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[30.206s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_generator_pyExport.cmake
+[30.208s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_generator_pyExport-noconfig.cmake
+[30.210s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/rosidl_cmake-extras.cmake
+[30.212s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.212s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[30.214s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[30.215s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[30.216s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.217s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[30.219s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgsConfig.cmake
+[30.219s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgsConfig-version.cmake
+[30.220s] -- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/package.xml
+[30.238s] Invoked command in '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs

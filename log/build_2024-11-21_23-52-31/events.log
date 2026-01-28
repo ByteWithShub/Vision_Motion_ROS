@@ -1,0 +1,626 @@
+[0.000000] (-) TimerEvent: {}
+[0.006069] (aisd_msgs) JobQueued: {'identifier': 'aisd_msgs', 'dependencies': OrderedDict()}
+[0.006893] (aisd_vision) JobQueued: {'identifier': 'aisd_vision', 'dependencies': OrderedDict()}
+[0.007140] (aisd_msgs) JobStarted: {'identifier': 'aisd_msgs'}
+[0.176641] (-) TimerEvent: {}
+[0.223732] (aisd_vision) JobStarted: {'identifier': 'aisd_vision'}
+[0.280303] (-) TimerEvent: {}
+[0.387432] (-) TimerEvent: {}
+[0.408542] (aisd_msgs) JobProgress: {'identifier': 'aisd_msgs', 'progress': 'cmake'}
+[0.414634] (aisd_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/aisd_msgs', '-DCMAKE_INSTALL_PREFIX=/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs'], 'cwd': '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aisd'), ('SSH_CLIENT', '192.168.169.1 57877 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/aisd'), ('OLDPWD', '/home/aisd/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aisd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '23'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aisd/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs'), ('SSH_CONNECTION', '192.168.169.1 57877 192.168.169.128 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.510269] (-) TimerEvent: {}
+[0.623254] (-) TimerEvent: {}
+[0.726124] (-) TimerEvent: {}
+[0.829320] (-) TimerEvent: {}
+[0.932109] (-) TimerEvent: {}
+[1.035897] (-) TimerEvent: {}
+[1.143200] (-) TimerEvent: {}
+[1.246193] (-) TimerEvent: {}
+[1.348857] (-) TimerEvent: {}
+[1.451983] (-) TimerEvent: {}
+[1.554557] (-) TimerEvent: {}
+[1.657296] (-) TimerEvent: {}
+[1.760184] (-) TimerEvent: {}
+[1.861936] (-) TimerEvent: {}
+[1.963357] (-) TimerEvent: {}
+[2.064817] (-) TimerEvent: {}
+[2.166387] (-) TimerEvent: {}
+[2.268268] (-) TimerEvent: {}
+[2.370635] (-) TimerEvent: {}
+[2.471212] (-) TimerEvent: {}
+[2.504993] (aisd_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.571607] (-) TimerEvent: {}
+[2.672237] (-) TimerEvent: {}
+[2.772858] (-) TimerEvent: {}
+[2.873501] (-) TimerEvent: {}
+[2.974103] (-) TimerEvent: {}
+[3.074690] (-) TimerEvent: {}
+[3.175339] (-) TimerEvent: {}
+[3.250419] (aisd_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.275615] (-) TimerEvent: {}
+[3.322957] (aisd_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.376023] (-) TimerEvent: {}
+[3.476946] (-) TimerEvent: {}
+[3.577746] (-) TimerEvent: {}
+[3.678409] (-) TimerEvent: {}
+[3.779239] (-) TimerEvent: {}
+[3.879971] (-) TimerEvent: {}
+[3.960241] (aisd_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.977913] (aisd_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.980462] (aisd_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.980812] (-) TimerEvent: {}
+[3.986015] (aisd_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.011784] (aisd_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.081353] (-) TimerEvent: {}
+[4.182142] (-) TimerEvent: {}
+[4.283009] (-) TimerEvent: {}
+[4.383723] (-) TimerEvent: {}
+[4.484452] (-) TimerEvent: {}
+[4.585179] (-) TimerEvent: {}
+[4.686233] (-) TimerEvent: {}
+[4.787187] (-) TimerEvent: {}
+[4.832843] (aisd_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.859923] (aisd_vision) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/aisd_vision', 'build', '--build-base', '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build', 'install', '--record', '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/aisd_vision', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aisd', 'SSH_CLIENT': '192.168.169.1 57877 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/aisd', 'OLDPWD': '/home/aisd/ros2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aisd', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '23', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/aisd/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision', 'SSH_CONNECTION': '192.168.169.1 57877 192.168.169.128 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.862232] (aisd_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.862884] (aisd_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.863195] (aisd_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.887420] (-) TimerEvent: {}
+[4.928063] (aisd_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.987803] (-) TimerEvent: {}
+[5.093750] (-) TimerEvent: {}
+[5.194383] (-) TimerEvent: {}
+[5.295737] (-) TimerEvent: {}
+[5.396871] (-) TimerEvent: {}
+[5.498470] (-) TimerEvent: {}
+[5.575256] (aisd_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.598728] (-) TimerEvent: {}
+[5.700241] (-) TimerEvent: {}
+[5.801800] (-) TimerEvent: {}
+[5.857614] (aisd_vision) StdoutLine: {'line': b'running egg_info\n'}
+[5.858851] (aisd_vision) StdoutLine: {'line': b'creating ../build/aisd_vision/aisd_vision.egg-info\n'}
+[5.859689] (aisd_vision) StdoutLine: {'line': b'writing ../build/aisd_vision/aisd_vision.egg-info/PKG-INFO\n'}
+[5.860519] (aisd_vision) StdoutLine: {'line': b'writing dependency_links to ../build/aisd_vision/aisd_vision.egg-info/dependency_links.txt\n'}
+[5.861570] (aisd_vision) StdoutLine: {'line': b'writing entry points to ../build/aisd_vision/aisd_vision.egg-info/entry_points.txt\n'}
+[5.862397] (aisd_vision) StdoutLine: {'line': b'writing requirements to ../build/aisd_vision/aisd_vision.egg-info/requires.txt\n'}
+[5.863201] (aisd_vision) StdoutLine: {'line': b'writing top-level names to ../build/aisd_vision/aisd_vision.egg-info/top_level.txt\n'}
+[5.864318] (aisd_vision) StdoutLine: {'line': b"writing manifest file '../build/aisd_vision/aisd_vision.egg-info/SOURCES.txt'\n"}
+[5.874626] (aisd_vision) StdoutLine: {'line': b"reading manifest file '../build/aisd_vision/aisd_vision.egg-info/SOURCES.txt'\n"}
+[5.876141] (aisd_vision) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.877797] (aisd_vision) StdoutLine: {'line': b"writing manifest file '../build/aisd_vision/aisd_vision.egg-info/SOURCES.txt'\n"}
+[5.878541] (aisd_vision) StdoutLine: {'line': b'running build\n'}
+[5.879095] (aisd_vision) StdoutLine: {'line': b'running build_py\n'}
+[5.879433] (aisd_vision) StdoutLine: {'line': b'creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build\n'}
+[5.879911] (aisd_vision) StdoutLine: {'line': b'creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build/lib\n'}
+[5.880200] (aisd_vision) StdoutLine: {'line': b'creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build/lib/aisd_vision\n'}
+[5.881555] (aisd_vision) StdoutLine: {'line': b'copying aisd_vision/__init__.py -> /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build/lib/aisd_vision\n'}
+[5.882552] (aisd_vision) StdoutLine: {'line': b'running install\n'}
+[5.883535] (aisd_vision) StdoutLine: {'line': b'running install_lib\n'}
+[5.886902] (aisd_vision) StdoutLine: {'line': b'creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/lib/python3.10/site-packages/aisd_vision\n'}
+[5.889351] (aisd_vision) StdoutLine: {'line': b'copying /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build/lib/aisd_vision/__init__.py -> /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/lib/python3.10/site-packages/aisd_vision\n'}
+[5.892143] (aisd_vision) StdoutLine: {'line': b'byte-compiling /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/lib/python3.10/site-packages/aisd_vision/__init__.py to __init__.cpython-310.pyc\n'}
+[5.893878] (aisd_vision) StdoutLine: {'line': b'running install_data\n'}
+[5.894561] (aisd_vision) StdoutLine: {'line': b'creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/share/ament_index\n'}
+[5.895290] (aisd_vision) StdoutLine: {'line': b'creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/share/ament_index/resource_index\n'}
+[5.896081] (aisd_vision) StdoutLine: {'line': b'creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/share/ament_index/resource_index/packages\n'}
+[5.897023] (aisd_vision) StdoutLine: {'line': b'copying resource/aisd_vision -> /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/share/ament_index/resource_index/packages\n'}
+[5.898337] (aisd_vision) StdoutLine: {'line': b'copying package.xml -> /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/share/aisd_vision\n'}
+[5.899403] (aisd_vision) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.902025] (-) TimerEvent: {}
+[5.911292] (aisd_vision) StdoutLine: {'line': b'Copying ../build/aisd_vision/aisd_vision.egg-info to /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/lib/python3.10/site-packages/aisd_vision-0.0.0-py3.10.egg-info\n'}
+[5.919090] (aisd_vision) StdoutLine: {'line': b'running install_scripts\n'}
+[5.999746] (aisd_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.003144] (-) TimerEvent: {}
+[6.033310] (aisd_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.060091] (aisd_vision) StdoutLine: {'line': b"writing list of installed files to '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/install.log'\n"}
+[6.085621] (aisd_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.103695] (-) TimerEvent: {}
+[6.120921] (aisd_vision) CommandEnded: {'returncode': 0}
+[6.204045] (-) TimerEvent: {}
+[6.208887] (aisd_vision) JobEnded: {'identifier': 'aisd_vision', 'rc': 0}
+[6.304474] (-) TimerEvent: {}
+[6.405610] (-) TimerEvent: {}
+[6.506767] (-) TimerEvent: {}
+[6.535312] (aisd_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.607206] (-) TimerEvent: {}
+[6.710752] (-) TimerEvent: {}
+[6.813270] (-) TimerEvent: {}
+[6.914886] (-) TimerEvent: {}
+[7.015801] (-) TimerEvent: {}
+[7.116461] (-) TimerEvent: {}
+[7.217280] (-) TimerEvent: {}
+[7.318329] (-) TimerEvent: {}
+[7.419975] (-) TimerEvent: {}
+[7.521341] (-) TimerEvent: {}
+[7.623024] (-) TimerEvent: {}
+[7.724220] (-) TimerEvent: {}
+[7.825098] (-) TimerEvent: {}
+[7.926242] (-) TimerEvent: {}
+[8.027165] (-) TimerEvent: {}
+[8.128213] (-) TimerEvent: {}
+[8.211287] (aisd_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.228601] (-) TimerEvent: {}
+[8.329896] (-) TimerEvent: {}
+[8.431591] (-) TimerEvent: {}
+[8.533349] (-) TimerEvent: {}
+[8.635171] (-) TimerEvent: {}
+[8.736584] (-) TimerEvent: {}
+[8.837820] (-) TimerEvent: {}
+[8.939040] (-) TimerEvent: {}
+[9.040157] (-) TimerEvent: {}
+[9.141057] (-) TimerEvent: {}
+[9.241968] (-) TimerEvent: {}
+[9.295454] (aisd_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.342376] (-) TimerEvent: {}
+[9.443648] (-) TimerEvent: {}
+[9.545295] (-) TimerEvent: {}
+[9.646359] (-) TimerEvent: {}
+[9.747195] (-) TimerEvent: {}
+[9.848194] (-) TimerEvent: {}
+[9.949225] (-) TimerEvent: {}
+[10.050230] (-) TimerEvent: {}
+[10.151176] (-) TimerEvent: {}
+[10.262378] (-) TimerEvent: {}
+[10.363332] (-) TimerEvent: {}
+[10.464381] (-) TimerEvent: {}
+[10.565874] (-) TimerEvent: {}
+[10.606331] (aisd_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.666270] (-) TimerEvent: {}
+[10.764688] (aisd_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[10.767344] (-) TimerEvent: {}
+[10.789906] (aisd_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[10.867445] (-) TimerEvent: {}
+[10.968467] (-) TimerEvent: {}
+[10.980516] (aisd_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[10.981568] (aisd_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.981990] (aisd_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[10.982388] (aisd_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[11.068713] (-) TimerEvent: {}
+[11.082144] (aisd_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.169128] (-) TimerEvent: {}
+[11.270295] (-) TimerEvent: {}
+[11.305158] (aisd_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.370930] (-) TimerEvent: {}
+[11.471836] (-) TimerEvent: {}
+[11.573121] (-) TimerEvent: {}
+[11.584197] (aisd_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.612387] (aisd_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.627489] (aisd_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.663773] (aisd_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.673768] (-) TimerEvent: {}
+[11.774870] (-) TimerEvent: {}
+[11.876219] (-) TimerEvent: {}
+[11.978345] (-) TimerEvent: {}
+[12.079162] (-) TimerEvent: {}
+[12.088262] (aisd_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[12.111699] (aisd_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs\n'}
+[12.150613] (aisd_msgs) CommandEnded: {'returncode': 0}
+[12.154580] (aisd_msgs) JobProgress: {'identifier': 'aisd_msgs', 'progress': 'build'}
+[12.172352] (aisd_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs', '--', '-j2', '-l2'], 'cwd': '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aisd'), ('SSH_CLIENT', '192.168.169.1 57877 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/aisd'), ('OLDPWD', '/home/aisd/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aisd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '23'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aisd/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs'), ('SSH_CONNECTION', '192.168.169.1 57877 192.168.169.128 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.179791] (-) TimerEvent: {}
+[12.283601] (-) TimerEvent: {}
+[12.384961] (-) TimerEvent: {}
+[12.486375] (-) TimerEvent: {}
+[12.578874] (aisd_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.587883] (-) TimerEvent: {}
+[12.668211] (aisd_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.688370] (-) TimerEvent: {}
+[12.789079] (-) TimerEvent: {}
+[12.889849] (-) TimerEvent: {}
+[12.990431] (-) TimerEvent: {}
+[13.090978] (-) TimerEvent: {}
+[13.191488] (-) TimerEvent: {}
+[13.292037] (-) TimerEvent: {}
+[13.392768] (-) TimerEvent: {}
+[13.501805] (-) TimerEvent: {}
+[13.602381] (-) TimerEvent: {}
+[13.665667] (aisd_msgs) StdoutLine: {'line': b'[  5%] Built target aisd_msgs__cpp\n'}
+[13.702606] (-) TimerEvent: {}
+[13.745022] (aisd_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/aisd_msgs__rosidl_generator_c.dir/rosidl_generator_c/aisd_msgs/msg/detail/hand__functions.c.o\x1b[0m\n'}
+[13.801229] (aisd_msgs) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_copy_aisd_msgs\n'}
+[13.802888] (-) TimerEvent: {}
+[13.856125] (aisd_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/aisd_msgs__rosidl_generator_c.dir/rosidl_generator_c/aisd_msgs/srv/detail/speak__functions.c.o\x1b[0m\n'}
+[13.903297] (-) TimerEvent: {}
+[14.004223] (-) TimerEvent: {}
+[14.105036] (-) TimerEvent: {}
+[14.159878] (aisd_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.205290] (-) TimerEvent: {}
+[14.206444] (aisd_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libaisd_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[14.305685] (-) TimerEvent: {}
+[14.401891] (aisd_msgs) StdoutLine: {'line': b'[ 15%] Built target aisd_msgs__rosidl_generator_c\n'}
+[14.405911] (-) TimerEvent: {}
+[14.456452] (aisd_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.506148] (-) TimerEvent: {}
+[14.606680] (-) TimerEvent: {}
+[14.707372] (-) TimerEvent: {}
+[14.795032] (aisd_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aisd_msgs/msg/hand__type_support.cpp.o\x1b[0m\n'}
+[14.811992] (-) TimerEvent: {}
+[14.912837] (-) TimerEvent: {}
+[15.014157] (-) TimerEvent: {}
+[15.115524] (-) TimerEvent: {}
+[15.218370] (-) TimerEvent: {}
+[15.320721] (-) TimerEvent: {}
+[15.388702] (aisd_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aisd_msgs/msg/detail/dds_fastrtps/hand__type_support.cpp.o\x1b[0m\n'}
+[15.421026] (-) TimerEvent: {}
+[15.523090] (-) TimerEvent: {}
+[15.624315] (-) TimerEvent: {}
+[15.726059] (-) TimerEvent: {}
+[15.827341] (-) TimerEvent: {}
+[15.930844] (-) TimerEvent: {}
+[16.032312] (-) TimerEvent: {}
+[16.134561] (-) TimerEvent: {}
+[16.236120] (-) TimerEvent: {}
+[16.338426] (-) TimerEvent: {}
+[16.440755] (-) TimerEvent: {}
+[16.543443] (-) TimerEvent: {}
+[16.575024] (aisd_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aisd_msgs/srv/speak__type_support.cpp.o\x1b[0m\n'}
+[16.643700] (-) TimerEvent: {}
+[16.745215] (-) TimerEvent: {}
+[16.846775] (-) TimerEvent: {}
+[16.948116] (-) TimerEvent: {}
+[17.050676] (-) TimerEvent: {}
+[17.152234] (-) TimerEvent: {}
+[17.254055] (-) TimerEvent: {}
+[17.356040] (-) TimerEvent: {}
+[17.405516] (aisd_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aisd_msgs/srv/detail/dds_fastrtps/speak__type_support.cpp.o\x1b[0m\n'}
+[17.456272] (-) TimerEvent: {}
+[17.557906] (-) TimerEvent: {}
+[17.659608] (-) TimerEvent: {}
+[17.746427] (aisd_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libaisd_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[17.759948] (-) TimerEvent: {}
+[17.861952] (-) TimerEvent: {}
+[17.958851] (aisd_msgs) StdoutLine: {'line': b'[ 30%] Built target aisd_msgs__rosidl_typesupport_cpp\n'}
+[17.962203] (-) TimerEvent: {}
+[18.013364] (aisd_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[18.062432] (-) TimerEvent: {}
+[18.162992] (-) TimerEvent: {}
+[18.263546] (-) TimerEvent: {}
+[18.364113] (-) TimerEvent: {}
+[18.464662] (-) TimerEvent: {}
+[18.566064] (-) TimerEvent: {}
+[18.669233] (-) TimerEvent: {}
+[18.769865] (-) TimerEvent: {}
+[18.803058] (aisd_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aisd_msgs/msg/detail/hand__type_support.cpp.o\x1b[0m\n'}
+[18.808610] (aisd_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libaisd_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.870364] (-) TimerEvent: {}
+[18.971737] (-) TimerEvent: {}
+[19.073097] (-) TimerEvent: {}
+[19.174579] (-) TimerEvent: {}
+[19.182930] (aisd_msgs) StdoutLine: {'line': b'[ 38%] Built target aisd_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[19.274894] (-) TimerEvent: {}
+[19.376598] (-) TimerEvent: {}
+[19.478388] (-) TimerEvent: {}
+[19.579738] (-) TimerEvent: {}
+[19.681527] (-) TimerEvent: {}
+[19.782799] (-) TimerEvent: {}
+[19.884131] (-) TimerEvent: {}
+[19.985391] (-) TimerEvent: {}
+[20.086878] (-) TimerEvent: {}
+[20.175166] (aisd_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[20.192289] (-) TimerEvent: {}
+[20.194358] (aisd_msgs) StdoutLine: {'line': b'creating aisd_msgs.egg-info\n'}
+[20.196137] (aisd_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aisd_msgs/srv/detail/speak__type_support.cpp.o\x1b[0m\n'}
+[20.197146] (aisd_msgs) StdoutLine: {'line': b'writing aisd_msgs.egg-info/PKG-INFO\n'}
+[20.198776] (aisd_msgs) StdoutLine: {'line': b'writing dependency_links to aisd_msgs.egg-info/dependency_links.txt\n'}
+[20.199998] (aisd_msgs) StdoutLine: {'line': b'writing top-level names to aisd_msgs.egg-info/top_level.txt\n'}
+[20.201038] (aisd_msgs) StdoutLine: {'line': b"writing manifest file 'aisd_msgs.egg-info/SOURCES.txt'\n"}
+[20.207776] (aisd_msgs) StdoutLine: {'line': b"reading manifest file 'aisd_msgs.egg-info/SOURCES.txt'\n"}
+[20.209756] (aisd_msgs) StdoutLine: {'line': b"writing manifest file 'aisd_msgs.egg-info/SOURCES.txt'\n"}
+[20.292063] (aisd_msgs) StdoutLine: {'line': b'[ 41%] Built target ament_cmake_python_build_aisd_msgs_egg\n'}
+[20.292396] (-) TimerEvent: {}
+[20.393015] (-) TimerEvent: {}
+[20.492340] (aisd_msgs) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.493395] (-) TimerEvent: {}
+[20.594358] (-) TimerEvent: {}
+[20.694908] (-) TimerEvent: {}
+[20.795444] (-) TimerEvent: {}
+[20.896043] (-) TimerEvent: {}
+[20.996688] (-) TimerEvent: {}
+[21.097616] (-) TimerEvent: {}
+[21.198470] (-) TimerEvent: {}
+[21.299274] (-) TimerEvent: {}
+[21.363020] (aisd_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aisd_msgs/msg/detail/hand__type_support_c.cpp.o\x1b[0m\n'}
+[21.399536] (-) TimerEvent: {}
+[21.500095] (-) TimerEvent: {}
+[21.600614] (-) TimerEvent: {}
+[21.639088] (aisd_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libaisd_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[21.700864] (-) TimerEvent: {}
+[21.801632] (-) TimerEvent: {}
+[21.902395] (-) TimerEvent: {}
+[21.980406] (aisd_msgs) StdoutLine: {'line': b'[ 48%] Built target aisd_msgs__rosidl_typesupport_introspection_cpp\n'}
+[22.002701] (-) TimerEvent: {}
+[22.033115] (aisd_msgs) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[22.103088] (-) TimerEvent: {}
+[22.203842] (-) TimerEvent: {}
+[22.304510] (-) TimerEvent: {}
+[22.405108] (-) TimerEvent: {}
+[22.505884] (-) TimerEvent: {}
+[22.508024] (aisd_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aisd_msgs/srv/detail/speak__type_support_c.cpp.o\x1b[0m\n'}
+[22.606145] (-) TimerEvent: {}
+[22.707510] (-) TimerEvent: {}
+[22.808721] (-) TimerEvent: {}
+[22.810470] (aisd_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/aisd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aisd_msgs/msg/detail/hand__type_support.c.o\x1b[0m\n'}
+[22.909003] (-) TimerEvent: {}
+[22.974306] (aisd_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/aisd_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aisd_msgs/srv/detail/speak__type_support.c.o\x1b[0m\n'}
+[23.009305] (-) TimerEvent: {}
+[23.110949] (-) TimerEvent: {}
+[23.159417] (aisd_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libaisd_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[23.211223] (-) TimerEvent: {}
+[23.311894] (-) TimerEvent: {}
+[23.330504] (aisd_msgs) StdoutLine: {'line': b'[ 61%] Built target aisd_msgs__rosidl_typesupport_introspection_c\n'}
+[23.379996] (aisd_msgs) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[23.412200] (-) TimerEvent: {}
+[23.512926] (-) TimerEvent: {}
+[23.613705] (-) TimerEvent: {}
+[23.638313] (aisd_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libaisd_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[23.714563] (-) TimerEvent: {}
+[23.815099] (-) TimerEvent: {}
+[23.915789] (-) TimerEvent: {}
+[24.016566] (-) TimerEvent: {}
+[24.033129] (aisd_msgs) StdoutLine: {'line': b'[ 66%] Built target aisd_msgs__rosidl_typesupport_fastrtps_c\n'}
+[24.117132] (-) TimerEvent: {}
+[24.146860] (aisd_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aisd_msgs/srv/speak__type_support.cpp.o\x1b[0m\n'}
+[24.147370] (aisd_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/aisd_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aisd_msgs/msg/hand__type_support.cpp.o\x1b[0m\n'}
+[24.217534] (-) TimerEvent: {}
+[24.318250] (-) TimerEvent: {}
+[24.322633] (aisd_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libaisd_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[24.418560] (-) TimerEvent: {}
+[24.519943] (-) TimerEvent: {}
+[24.622627] (-) TimerEvent: {}
+[24.630609] (aisd_msgs) StdoutLine: {'line': b'[ 74%] Built target aisd_msgs__rosidl_typesupport_c\n'}
+[24.723109] (-) TimerEvent: {}
+[24.825352] (-) TimerEvent: {}
+[24.829150] (aisd_msgs) StdoutLine: {'line': b'[ 74%] Built target aisd_msgs\n'}
+[24.930596] (-) TimerEvent: {}
+[25.033826] (-) TimerEvent: {}
+[25.047639] (aisd_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[25.134309] (-) TimerEvent: {}
+[25.237930] (-) TimerEvent: {}
+[25.341077] (-) TimerEvent: {}
+[25.444653] (-) TimerEvent: {}
+[25.546613] (-) TimerEvent: {}
+[25.648266] (-) TimerEvent: {}
+[25.750195] (-) TimerEvent: {}
+[25.852505] (-) TimerEvent: {}
+[25.954044] (-) TimerEvent: {}
+[26.055462] (-) TimerEvent: {}
+[26.156840] (-) TimerEvent: {}
+[26.177338] (aisd_msgs) StdoutLine: {'line': b'[ 76%] Built target aisd_msgs__py\n'}
+[26.257160] (-) TimerEvent: {}
+[26.288227] (aisd_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/aisd_msgs__rosidl_generator_py.dir/rosidl_generator_py/aisd_msgs/msg/_hand_s.c.o\x1b[0m\n'}
+[26.296445] (aisd_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/aisd_msgs__rosidl_generator_py.dir/rosidl_generator_py/aisd_msgs/srv/_speak_s.c.o\x1b[0m\n'}
+[26.357866] (-) TimerEvent: {}
+[26.458435] (-) TimerEvent: {}
+[26.559174] (-) TimerEvent: {}
+[26.659929] (-) TimerEvent: {}
+[26.760715] (-) TimerEvent: {}
+[26.861610] (-) TimerEvent: {}
+[26.908752] (aisd_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aisd_msgs/libaisd_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[26.961850] (-) TimerEvent: {}
+[27.062652] (-) TimerEvent: {}
+[27.146742] (aisd_msgs) StdoutLine: {'line': b'[ 84%] Built target aisd_msgs__rosidl_generator_py\n'}
+[27.163067] (-) TimerEvent: {}
+[27.264238] (-) TimerEvent: {}
+[27.313314] (aisd_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/aisd_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aisd_msgs/_aisd_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[27.330513] (aisd_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/aisd_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aisd_msgs/_aisd_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[27.364578] (-) TimerEvent: {}
+[27.465525] (-) TimerEvent: {}
+[27.566218] (-) TimerEvent: {}
+[27.667070] (-) TimerEvent: {}
+[27.768394] (-) TimerEvent: {}
+[27.803230] (aisd_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aisd_msgs/aisd_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.835529] (aisd_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aisd_msgs/aisd_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.868662] (-) TimerEvent: {}
+[27.969596] (-) TimerEvent: {}
+[27.992386] (aisd_msgs) StdoutLine: {'line': b'[ 94%] Built target aisd_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[28.027878] (aisd_msgs) StdoutLine: {'line': b'[ 94%] Built target aisd_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[28.069938] (-) TimerEvent: {}
+[28.132018] (aisd_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/aisd_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aisd_msgs/_aisd_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[28.170326] (-) TimerEvent: {}
+[28.271134] (-) TimerEvent: {}
+[28.372614] (-) TimerEvent: {}
+[28.473881] (-) TimerEvent: {}
+[28.512908] (aisd_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aisd_msgs/aisd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[28.574259] (-) TimerEvent: {}
+[28.675543] (-) TimerEvent: {}
+[28.761971] (aisd_msgs) StdoutLine: {'line': b'[100%] Built target aisd_msgs__rosidl_typesupport_c__pyext\n'}
+[28.775991] (-) TimerEvent: {}
+[28.834152] (aisd_msgs) CommandEnded: {'returncode': 0}
+[28.876896] (-) TimerEvent: {}
+[28.978414] (-) TimerEvent: {}
+[29.079258] (-) TimerEvent: {}
+[29.180126] (-) TimerEvent: {}
+[29.280821] (-) TimerEvent: {}
+[29.381973] (-) TimerEvent: {}
+[29.483200] (-) TimerEvent: {}
+[29.584657] (-) TimerEvent: {}
+[29.590490] (aisd_msgs) JobProgress: {'identifier': 'aisd_msgs', 'progress': 'install'}
+[29.628542] (aisd_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs'], 'cwd': '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aisd'), ('SSH_CLIENT', '192.168.169.1 57877 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/aisd'), ('OLDPWD', '/home/aisd/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aisd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '23'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aisd/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_msgs'), ('SSH_CONNECTION', '192.168.169.1 57877 192.168.169.128 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[29.673181] (aisd_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.676979] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/ament_index/resource_index/rosidl_interfaces/aisd_msgs\n'}
+[29.679037] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs\n'}
+[29.679916] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv\n'}
+[29.680741] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail\n'}
+[29.681759] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__functions.c\n'}
+[29.683000] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__functions.h\n'}
+[29.684156] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__type_support.h\n'}
+[29.684998] (-) TimerEvent: {}
+[29.687235] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__struct.h\n'}
+[29.687890] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/speak.h\n'}
+[29.688683] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg\n'}
+[29.689350] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail\n'}
+[29.690547] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__functions.c\n'}
+[29.691852] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__type_support.h\n'}
+[29.693381] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__struct.h\n'}
+[29.695212] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__functions.h\n'}
+[29.696440] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/hand.h\n'}
+[29.697826] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[29.699412] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/library_path.sh\n'}
+[29.701893] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/library_path.dsv\n'}
+[29.702708] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_generator_c.so\n'}
+[29.707497] (aisd_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_generator_c.so" to ""\n'}
+[29.708098] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs\n'}
+[29.708831] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv\n'}
+[29.710089] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail\n'}
+[29.710892] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__rosidl_typesupport_fastrtps_c.h\n'}
+[29.712142] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg\n'}
+[29.713026] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail\n'}
+[29.713919] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__rosidl_typesupport_fastrtps_c.h\n'}
+[29.714791] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[29.716006] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[29.720970] (aisd_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[29.721860] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs\n'}
+[29.722432] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv\n'}
+[29.722789] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail\n'}
+[29.723192] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__rosidl_typesupport_introspection_c.h\n'}
+[29.723991] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__type_support.c\n'}
+[29.725691] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg\n'}
+[29.726533] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail\n'}
+[29.727004] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__type_support.c\n'}
+[29.728345] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__rosidl_typesupport_introspection_c.h\n'}
+[29.729303] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[29.730340] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_introspection_c.so\n'}
+[29.734792] (aisd_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[29.735799] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_c.so\n'}
+[29.740051] (aisd_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_c.so" to ""\n'}
+[29.741037] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs\n'}
+[29.742198] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv\n'}
+[29.742657] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail\n'}
+[29.743438] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__struct.hpp\n'}
+[29.744396] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__builder.hpp\n'}
+[29.745201] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__traits.hpp\n'}
+[29.746221] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/speak.hpp\n'}
+[29.747030] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg\n'}
+[29.747547] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail\n'}
+[29.748134] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__builder.hpp\n'}
+[29.750118] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__traits.hpp\n'}
+[29.750988] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__struct.hpp\n'}
+[29.752325] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/hand.hpp\n'}
+[29.753795] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs\n'}
+[29.754248] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv\n'}
+[29.754798] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail\n'}
+[29.755234] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/dds_fastrtps\n'}
+[29.755722] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.756806] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg\n'}
+[29.757862] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail\n'}
+[29.758300] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/dds_fastrtps\n'}
+[29.758777] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.760153] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[29.761075] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[29.766012] (aisd_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[29.767279] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs\n'}
+[29.767888] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv\n'}
+[29.768718] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail\n'}
+[29.769553] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__type_support.cpp\n'}
+[29.770829] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/srv/detail/speak__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.771687] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg\n'}
+[29.772199] (aisd_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail\n'}
+[29.772684] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__type_support.cpp\n'}
+[29.773658] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/include/aisd_msgs/aisd_msgs/msg/detail/hand__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.774519] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[29.778810] (aisd_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[29.779730] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_cpp.so\n'}
+[29.783694] (aisd_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[29.784307] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/pythonpath.sh\n'}
+[29.785205] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/pythonpath.dsv\n'}
+[29.785578] (-) TimerEvent: {}
+[29.786940] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs-0.0.0-py3.10.egg-info\n'}
+[29.788071] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[29.789701] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[29.790479] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[29.791315] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[29.792254] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs\n'}
+[29.792906] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/_aisd_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[29.794000] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/_aisd_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[29.795308] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/__init__.py\n'}
+[29.796116] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.799119] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.800250] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv\n'}
+[29.801154] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv/_speak_s.c\n'}
+[29.802409] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv/_speak.py\n'}
+[29.803950] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv/__init__.py\n'}
+[29.805758] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.807893] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/libaisd_msgs__rosidl_generator_py.so\n'}
+[29.808987] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/_aisd_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[29.810313] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg\n'}
+[29.811054] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg/__init__.py\n'}
+[29.812099] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg/_hand.py\n'}
+[29.814115] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg/_hand_s.c\n'}
+[29.886100] (-) TimerEvent: {}
+[29.987640] (-) TimerEvent: {}
+[30.011012] (aisd_msgs) StdoutLine: {'line': b"Listing '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs'...\n"}
+[30.012144] (aisd_msgs) StdoutLine: {'line': b"Compiling '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/__init__.py'...\n"}
+[30.012642] (aisd_msgs) StdoutLine: {'line': b"Listing '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg'...\n"}
+[30.013147] (aisd_msgs) StdoutLine: {'line': b"Compiling '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg/__init__.py'...\n"}
+[30.013774] (aisd_msgs) StdoutLine: {'line': b"Compiling '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/msg/_hand.py'...\n"}
+[30.014314] (aisd_msgs) StdoutLine: {'line': b"Listing '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv'...\n"}
+[30.014772] (aisd_msgs) StdoutLine: {'line': b"Compiling '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv/__init__.py'...\n"}
+[30.015420] (aisd_msgs) StdoutLine: {'line': b"Compiling '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/srv/_speak.py'...\n"}
+[30.034634] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[30.044553] (aisd_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[30.050791] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[30.064451] (aisd_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[30.072749] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[30.083701] (aisd_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/local/lib/python3.10/dist-packages/aisd_msgs/aisd_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[30.085674] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_generator_py.so\n'}
+[30.088197] (-) TimerEvent: {}
+[30.100813] (aisd_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/lib/libaisd_msgs__rosidl_generator_py.so" to ""\n'}
+[30.104231] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/msg/Hand.idl\n'}
+[30.107688] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/srv/Speak.idl\n'}
+[30.110446] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/msg/Hand.msg\n'}
+[30.112687] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/srv/Speak.srv\n'}
+[30.115467] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/srv/Speak_Request.msg\n'}
+[30.120571] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/srv/Speak_Response.msg\n'}
+[30.124283] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/ament_index/resource_index/package_run_dependencies/aisd_msgs\n'}
+[30.128124] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/ament_index/resource_index/parent_prefix_path/aisd_msgs\n'}
+[30.135325] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/ament_prefix_path.sh\n'}
+[30.137878] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/ament_prefix_path.dsv\n'}
+[30.140096] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/path.sh\n'}
+[30.142977] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/environment/path.dsv\n'}
+[30.145835] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/local_setup.bash\n'}
+[30.151337] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/local_setup.sh\n'}
+[30.154690] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/local_setup.zsh\n'}
+[30.157002] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/local_setup.dsv\n'}
+[30.159406] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/package.dsv\n'}
+[30.162500] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/ament_index/resource_index/packages/aisd_msgs\n'}
+[30.169793] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_generator_cExport.cmake\n'}
+[30.171762] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.174649] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[30.178114] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[30.183802] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.187045] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[30.188940] (-) TimerEvent: {}
+[30.191036] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_cExport.cmake\n'}
+[30.198178] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[30.199551] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_generator_cppExport.cmake\n'}
+[30.201832] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[30.203659] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[30.205062] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[30.206633] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[30.208605] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[30.210949] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[30.212914] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_generator_pyExport.cmake\n'}
+[30.215223] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/export_aisd_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[30.217246] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[30.218580] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.219532] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.221106] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.222296] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.223234] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.224370] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.225607] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgsConfig.cmake\n'}
+[30.226504] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/cmake/aisd_msgsConfig-version.cmake\n'}
+[30.227463] (aisd_msgs) StdoutLine: {'line': b'-- Installing: /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_msgs/share/aisd_msgs/package.xml\n'}
+[30.236162] (aisd_msgs) CommandEnded: {'returncode': 0}
+[30.288988] (-) TimerEvent: {}
+[30.390010] (-) TimerEvent: {}
+[30.493830] (-) TimerEvent: {}
+[30.595035] (-) TimerEvent: {}
+[30.695882] (-) TimerEvent: {}
+[30.797232] (-) TimerEvent: {}
+[30.899271] (-) TimerEvent: {}
+[30.999850] (-) TimerEvent: {}
+[31.100484] (-) TimerEvent: {}
+[31.202599] (-) TimerEvent: {}
+[31.307036] (-) TimerEvent: {}
+[31.351332] (aisd_msgs) JobEnded: {'identifier': 'aisd_msgs', 'rc': 0}
+[31.364265] (-) EventReactorShutdown: {}

@@ -1,0 +1,7 @@
+{
+  "package_name": "aisd_msgs",
+  "non_idl_tuples": [
+    "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/aisd_msgs:msg/Hand.msg",
+    "/home/aisd/ros2_ws/src/aisd-vision-shubhangix/aisd_msgs:srv/Speak.srv"
+  ]
+}

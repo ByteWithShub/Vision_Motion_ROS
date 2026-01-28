@@ -1,0 +1,4 @@
+source;share/aisd_msgs/environment/ament_prefix_path.sh
+source;share/aisd_msgs/environment/library_path.sh
+source;share/aisd_msgs/environment/path.sh
+source;share/aisd_msgs/environment/pythonpath.sh

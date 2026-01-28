@@ -1,0 +1,34 @@
+[4.638s] Invoking command in '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/aisd_vision': PYTHONPATH=/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/aisd_vision build --build-base /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build install --record /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/install.log --single-version-externally-managed install_data
+[5.634s] running egg_info
+[5.635s] creating ../build/aisd_vision/aisd_vision.egg-info
+[5.636s] writing ../build/aisd_vision/aisd_vision.egg-info/PKG-INFO
+[5.637s] writing dependency_links to ../build/aisd_vision/aisd_vision.egg-info/dependency_links.txt
+[5.638s] writing entry points to ../build/aisd_vision/aisd_vision.egg-info/entry_points.txt
+[5.639s] writing requirements to ../build/aisd_vision/aisd_vision.egg-info/requires.txt
+[5.639s] writing top-level names to ../build/aisd_vision/aisd_vision.egg-info/top_level.txt
+[5.641s] writing manifest file '../build/aisd_vision/aisd_vision.egg-info/SOURCES.txt'
+[5.651s] reading manifest file '../build/aisd_vision/aisd_vision.egg-info/SOURCES.txt'
+[5.652s] adding license file 'LICENSE'
+[5.654s] writing manifest file '../build/aisd_vision/aisd_vision.egg-info/SOURCES.txt'
+[5.655s] running build
+[5.655s] running build_py
+[5.656s] creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build
+[5.656s] creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build/lib
+[5.656s] creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build/lib/aisd_vision
+[5.658s] copying aisd_vision/__init__.py -> /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build/lib/aisd_vision
+[5.659s] running install
+[5.660s] running install_lib
+[5.663s] creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/lib/python3.10/site-packages/aisd_vision
+[5.666s] copying /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build/lib/aisd_vision/__init__.py -> /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/lib/python3.10/site-packages/aisd_vision
+[5.668s] byte-compiling /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/lib/python3.10/site-packages/aisd_vision/__init__.py to __init__.cpython-310.pyc
+[5.670s] running install_data
+[5.671s] creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/share/ament_index
+[5.672s] creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/share/ament_index/resource_index
+[5.672s] creating /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/share/ament_index/resource_index/packages
+[5.673s] copying resource/aisd_vision -> /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/share/ament_index/resource_index/packages
+[5.675s] copying package.xml -> /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/share/aisd_vision
+[5.676s] running install_egg_info
+[5.688s] Copying ../build/aisd_vision/aisd_vision.egg-info to /home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/lib/python3.10/site-packages/aisd_vision-0.0.0-py3.10.egg-info
+[5.695s] running install_scripts
+[5.836s] writing list of installed files to '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/install.log'
+[5.898s] Invoked command in '/home/aisd/ros2_ws/src/aisd-vision-shubhangix/aisd_vision' returned '0': PYTHONPATH=/home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/aisd-vision-shubhangix/install/aisd_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/aisd_vision build --build-base /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/build install --record /home/aisd/ros2_ws/src/aisd-vision-shubhangix/build/aisd_vision/install.log --single-version-externally-managed install_data
